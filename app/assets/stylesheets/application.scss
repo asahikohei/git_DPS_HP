@@ -14,3 +14,17 @@
  * It is generally better to create a new file per style scope.
  *
  */
+ 
+.header__bar{
+  position: relative;
+  left: 50px;
+  top: 10px;
+}
+div.grid-6 {
+  float: right;
+  text-align: right;
+  position: relative;
+  right: 50px;
+  bottom: 40px;
+  
+}

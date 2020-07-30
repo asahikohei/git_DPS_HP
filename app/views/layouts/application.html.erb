@@ -14,6 +14,12 @@
       <div class="header__bar row">
         <%= link_to image_tag(src="JnJ_logo.png"), root_path, method: :get %>
       </div>
+      <div class="user_nav grid-6">
+        <%= link_to "TRAUMA", root_path, method: :get, class: "btn btn-secondary" %>
+        <%= link_to "JOINT RECONSTRACTION", root_path, method: :get, class: "btn btn-secondary" %>
+        <%= link_to "SPINE", root_path, method: :get, class: "btn btn-secondary" %>
+        <%= link_to "MITECK SPORTS MEDICINE", root_path, method: :get, class: "btn btn-secondary" %>
+      </div>
     </header>
     <%= yield %>
   </body>
